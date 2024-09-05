@@ -1,0 +1,10 @@
+{
+  "presets": [
+    "@babel/preset-env",           // Transpile modern JS to older syntax
+    "@babel/preset-react",         // Transform JSX to JavaScript
+    "@babel/preset-typescript"     // Transform TypeScript to JavaScript
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime" // Use runtime helpers
+  ]
+}
